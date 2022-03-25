@@ -1,0 +1,35 @@
+a{
+    text-decoration: none;
+    color: white;
+    margin: 10px 30px;
+}
+li{
+    list-style: none;
+    color: white;
+}
+.linkbutton{
+    display: flex;
+}
+/* Navbar style */
+.navbar{
+    height: 72px;
+    background-color: #1C2B35;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+/* logo css */
+#logo{
+    cursor: pointer;
+    margin-left: 30px;
+    
+}
+/* Responsive screen */
+@media screen and (max-width: 600px) {
+    .linkbutton{
+        display: none;
+    }
+}
