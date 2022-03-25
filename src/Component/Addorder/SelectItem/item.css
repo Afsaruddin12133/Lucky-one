@@ -1,0 +1,14 @@
+#icon{
+    width: 50px;
+    border-radius: 60%;
+    display: inline-block;
+    margin-right: 10px;
+}
+.iconroot{
+    display: flex;
+    margin-bottom: 20px;
+}
+#name{
+   display: inline-block;
+  
+}

@@ -9,15 +9,21 @@ const Product = () => {
     .then(data => data.json())
     .then(data => setWatch(data))
   },[]);
+  const [info ,setInfo] = useState([])
+  const addWatchname = (watchinfo) =>{
+     let newinfo = [...info , watchinfo]
+     setInfo(newinfo);
+  }
+  
     return (
         <div className='root-product'>
             <div className='all-product'>
             {
-                watch.map(watchdata=><Watch key = {watchdata.id} watchcard = {watchdata}></Watch>)
+                watch.map(watchdata=><Watch key = {watchdata.id} watchcard = {watchdata} addWatchname={addWatchname}></Watch>)
             }
             </div>
             <div className='order-card'>
-           <Addorder></Addorder>
+           <Addorder watchinfo = {info}></Addorder>
             </div>
         </div>
     );

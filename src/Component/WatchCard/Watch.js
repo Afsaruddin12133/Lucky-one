@@ -13,7 +13,7 @@ const Watch = (props) => {
             <h3>Price : ${price}</h3>
             <span>Stock : {stock}</span>
           </div>
-            <button type='button' id='button'><span id='span'>Add to Card</span>
+            <button type='button' onClick={()=>props.addWatchname(props.watchcard)} id='button'><span id='span'>Add to Card</span>
             <FontAwesomeIcon icon = {faShoppingCart}></FontAwesomeIcon>
             </button>
         </div>
