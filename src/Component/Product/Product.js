@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Addorder from '../Addorder/Addorder';
 import Watch from '../WatchCard/Watch';
 import './Product.css';
 const Product = () => {
@@ -16,7 +17,7 @@ const Product = () => {
             }
             </div>
             <div className='order-card'>
-
+           <Addorder></Addorder>
             </div>
         </div>
     );
