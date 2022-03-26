@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import Addorder from '../Addorder/Addorder';
+import Question from '../Question/Question';
 import Watch from '../WatchCard/Watch';
 import './Product.css';
+
 const Product = () => {
     const [watch , setWatch] = useState([])
   useEffect(()=>{
@@ -25,6 +27,7 @@ const Product = () => {
             <div className='order-card'>
            <Addorder watchinfo = {info}></Addorder>
             </div>
+            <Question></Question>
         </div>
     );
 };
