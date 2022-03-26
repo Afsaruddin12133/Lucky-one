@@ -25,7 +25,7 @@ const Product = () => {
             }
             </div>
             <div className='order-card'>
-           <Addorder watchinfo = {info} key = {info.id}></Addorder>
+           <Addorder watchinfo = {info}></Addorder>
             </div>
             <Question></Question>
         </div>
