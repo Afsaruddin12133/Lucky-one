@@ -1,7 +1,7 @@
 # This is Luxury time app
 ## Live site
 
- Luxury time app Live site link :[https://app.netlify.com/sites/monumental-pie-ffe0e4/overview](https://app.netlify.com/sites/monumental-pie-ffe0e4/overview).
+ Luxury time app Live site link :[https://monumental-pie-ffe0e4.netlify.app/](https://monumental-pie-ffe0e4.netlify.app/).
 
 ## About app
 
